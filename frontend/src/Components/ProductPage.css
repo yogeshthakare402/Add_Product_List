@@ -1,0 +1,113 @@
+#dataPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: wheat;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px goldenrod;
+}
+
+.elements{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.elements input{
+    width: 300px;
+    height: 40px;
+    border: 10px;
+}
+.elements label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.elements button{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: larger;
+    border: 1px solid black;
+}
+td{
+    cursor: pointer;
+}
+table{
+    width: 95%;
+    margin: 20px 10px 20px 10px;
+    border: 3px solid cornflowerblue;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+th,td{
+    border: 3px solid cornflowerblue;
+    border-collapse: collapse;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#productTable{
+    padding: 20px;
+    width: 80%;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgb(179, 117, 237);
+    overflow-y: scroll;
+    scroll-padding-block-start: 10px;
+    /* background-color: antiquewhite; */
+    background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?cs=srgb&dl=pexels-abdullah-ghatasheh-1631677.jpg&fm=jpg');
+    background-size: covers;
+}
+
+#productTable button{
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: larger;
+    border-radius: 5px;
+    position: sticky;
+    top: 20px;
+}
+#productTable img{
+    margin: 10px;
+}
+#cancel{
+    padding: 2px 2px 2px 2px;
+    margin-right: 10px;
+    float: right;
+    color: red;
+    font-size: xx-large;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.images{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fetchedimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px cornsilk;
+}
