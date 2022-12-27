@@ -1,0 +1,8 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://t4.ftcdn.net/jpg/02/88/29/93/360_F_288299391_0FmMPRVeTgm4QHBRxluiYrXniZJPVNuM.jpg");
+  background-size: cover;
+  /* background-image: linear-gradient(red,orange,yellow,green,blue); */
+}
