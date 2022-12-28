@@ -15,7 +15,6 @@ const multerStorage = multer.diskStorage({
 
 const upload = multer({
     storage: multerStorage,
-    // fileFilter: multerFilter,
 });
 
 router.get("/", async (req, res) => {
