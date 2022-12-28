@@ -22,8 +22,12 @@ function ProductInTable() {
 
     const editData = (id) => {
         console.log(id)
-        axios.put(`http://localhost:8000/:${id}`, {})
-
+        // axios.put(`http://localhost:8000/:${id}`, {})
+        productData.filter((product) => {
+            if (product._id === id) {
+                navigate("/editProduct",{state:{id:product._id, name:product.productName, description:product.productDescription, price:product.productPrice, category:product.productCategory, images:product.uploadImages}})
+            }
+        })
     }
     const deleteData = (id) => {
         console.log(id)
